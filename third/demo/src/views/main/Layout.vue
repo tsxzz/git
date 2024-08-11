@@ -6,7 +6,7 @@
           <img class="logo" src="../../assets/logo.png" alt="" />
           <h1 class="title">后台管理系统</h1>
         </div>
-        <el-button type="danger">退出</el-button>
+        <el-button type="danger" @click="loginOut">退出</el-button>
       </el-header>
       <el-container>
         <el-aside class="common-aside">
@@ -19,9 +19,28 @@
 </template>
 
 <script>
+import { useRoute } from "vue-router";
+import { useStore } from "vuex";
 import Left from "./left.vue";
+import router from "@/router";
 
-export default { components: { Left } };
+export default {
+  components: { Left },
+  name: "layout",
+  setup() {
+    const store = useStore();
+    const loginOut = () => {
+      localStorage.removeItem("logindata");
+      store.commit("setUserInfo", {});
+      router.push({
+        path: "/login",
+      });
+    };
+    return {
+      loginOut,
+    };
+  },
+};
 </script>
 
 <style setup>

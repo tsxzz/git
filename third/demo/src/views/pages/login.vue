@@ -34,24 +34,59 @@
           <el-input type="password" v-model="loginData.password"></el-input>
         </el-form-item>
       </el-form>
-      <el-button type="primary" class="login_btn">登录</el-button>
+      <el-button type="primary" class="login_btn" @click="handClick"
+        >登录</el-button
+      >
+      <h1>{{ num }}</h1>
     </div>
   </div>
 </template>
 
 <script>
+import router from "@/router";
+import { datePickTypes } from "element-plus";
 import { reactive, toRefs } from "vue";
+import { useStore } from "vuex";
 export default {
   name: "login",
   setup() {
+    const stoer = useStore();
+    const count = stoer.state.count;
     const data = reactive({
       loginData: {
         username: "",
         password: "",
       },
+      num: count,
+      numStatus: stoer.getters.countStatus,
     });
+
+    const handClick = () => {
+      stoer.commit("setUserInfo", data.loginData);
+      localStorage.setItem("logindata", JSON.stringify(data.loginData));
+      //跳转/user
+      router.push({
+        path: "/user",
+      });
+    };
+    //vuex修改语法
+    // console.log("修改之前的值", stoer.getters["number/countStatus"]);
+    // const handClick = () => {
+    //   //stoer.commit("number/setCount", 100);
+    //   stoer
+    //     .dispatch("number/setCountPromise", 100)
+    //     .then((res) => {
+    //       alert("修改成功");
+    //     })
+    //     .catch((error) => {
+    //       alert(error);
+    //     });
+    //   console.log(stoer.state.number.count);
+    //   console.log("修改后getters", stoer.getters["number/countStatus"]);
+    // };
     return {
       ...toRefs(data),
+      handClick,
     };
   },
 };
