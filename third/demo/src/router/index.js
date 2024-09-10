@@ -13,8 +13,13 @@ const router = createRouter({
       path: "/",
       name: "Layout",
       component: () => import("../views/main/Layout.vue"), // 修正路径拼写
-      redirect: "/roles",
+      redirect: "/index",
       children: [
+        {
+          path: "/index",
+          name: "index",
+          component: () => import("../views/pages/index.vue"),
+        },
         {
           path: "/roles",
           name: "roles",
@@ -40,6 +45,8 @@ router.beforeEach((to, from, next) => {
    */
   console.log("store", store.state.uInfo);
   const uInfo = store.state.uInfo.userInfo;
+  console.log(uInfo);
+
   if (!uInfo.username) {
     if (to.path === "/login") {
       next();

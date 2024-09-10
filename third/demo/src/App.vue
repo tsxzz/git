@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 body,
 html {
   padding: 0;
@@ -20,5 +20,13 @@ html {
 .flex {
   display: flex;
   align-items: center;
+}
+.page_content {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffff;
+  margin-top: 30px;
 }
 </style>

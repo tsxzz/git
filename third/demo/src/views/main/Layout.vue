@@ -30,7 +30,7 @@ export default {
   setup() {
     const store = useStore();
     const loginOut = () => {
-      localStorage.removeItem("logindata");
+      localStorage.removeItem("loginData");
       store.commit("setUserInfo", {});
       router.push({
         path: "/login",
@@ -66,9 +66,7 @@ export default {
   padding: 10px;
   margin: 0; /* 重置外边距 */
 }
-.button {
-  /* 如果按钮需要特殊样式，可以在这里添加 */
-}
+
 /* 由于 Element Plus 的 <el-button> 已经是 flex 项目，不需要再次设置 display: flex; */
 .flex-float {
   display: flex;
@@ -78,5 +76,8 @@ export default {
 .flex {
   display: flex;
   align-items: center;
+}
+.el-main {
+  background-color: #efefef;
 }
 </style>

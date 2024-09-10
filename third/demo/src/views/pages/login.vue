@@ -34,7 +34,7 @@
           <el-input type="password" v-model="loginData.password"></el-input>
         </el-form-item>
       </el-form>
-      <el-button type="primary" class="login_btn" @click="handClick"
+      <el-button type="primary" class="login_btn" @click="handleLogin"
         >登录</el-button
       >
       <h1>{{ num }}</h1>
@@ -47,6 +47,7 @@ import router from "@/router";
 import { datePickTypes } from "element-plus";
 import { reactive, toRefs } from "vue";
 import { useStore } from "vuex";
+import { loginApi } from "@/util/request";
 export default {
   name: "login",
   setup() {
@@ -61,12 +62,23 @@ export default {
       numStatus: stoer.getters.countStatus,
     });
 
-    const handClick = () => {
-      stoer.commit("setUserInfo", data.loginData);
-      localStorage.setItem("logindata", JSON.stringify(data.loginData));
-      //跳转/user
-      router.push({
-        path: "/user",
+    const handleLogin = () => {
+      // stoer.commit("setUserInfo", data.loginData);
+      // localStorage.setItem("logindata", JSON.stringify(data.loginData));
+      // //跳转/user
+      // router.push({
+      //   path: "/user",
+      // });
+      loginApi(data.loginData).then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          stoer.commit("setUserInfo", res.data);
+          localStorage.setItem("loginData", JSON.stringify(res.data));
+          //跳转
+          router.push({
+            path: "/",
+          });
+        }
       });
     };
     //vuex修改语法
@@ -86,7 +98,7 @@ export default {
     // };
     return {
       ...toRefs(data),
-      handClick,
+      handleLogin,
     };
   },
 };
