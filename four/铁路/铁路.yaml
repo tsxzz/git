@@ -1,0 +1,110 @@
+feature-styles:
+  - name: railroad
+    rules:
+      # 样式规则 1：GB 字段为 410101 的单线样式
+      - filter: "[GB] = '410101'"
+        symbolizers:
+          - line:
+              stroke-color: "#ff0000"
+              stroke-width: 3
+          - line:
+              stroke-color: "#ff0000"
+              stroke-width: 1
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#ff0000"
+                      stroke-width: 1
+
+      # 样式规则 2：GB 字段为 410102 的复线样式
+      - filter: "[GB] = '410102'"
+        symbolizers:
+          - line:
+              stroke-color: "#00ff00"
+              stroke-width: 3
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+          - line:
+              stroke-color: "#00ff00"
+              stroke-width: 1
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#00ff00"
+                      stroke-width: 1
+
+      # 样式规则 3：GB 字段为 410103 的建筑中铁路样式
+      - filter: "[GB] = '410103'"
+        symbolizers:
+          - line:
+              stroke-color: "#0000ff"
+              stroke-width: 3
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+          - line:
+              stroke-color: "#0000ff"
+              stroke-width: 1
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#0000ff"
+                      stroke-width: 1
+
+      # 样式规则 4：GB 字段为 410200 的窄轨铁路样式
+      - filter: "[GB] = '410200'"
+        symbolizers:
+          - line:
+              stroke-color: "#ff00ff"
+              stroke-width: 3
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+          - line:
+              stroke-color: "#ff00ff"
+              stroke-width: 1
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#ff00ff"
+                      stroke-width: 1
+
+      # 样式规则 5：GB 字段为 430101 的地铁样式
+      - filter: "[GB] = '430101'"
+        symbolizers:
+          - line:
+              stroke-color: "#00ffff"
+              stroke-width: 3
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+          - line:
+              stroke-color: "#00ffff"
+              stroke-width: 1
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#00ffff"
+                      stroke-width: 1
+
+      # 样式规则 6：GB 字段为 430102 的磁浮铁轨，轻轨线路样式
+      - filter: "[GB] = '430102'"
+        symbolizers:
+          - line:
+              stroke-color: "#ffcc00"
+              stroke-width: 3
+              stroke-dasharray: "1 0.5 1 0.5 1 19.5"
+          - line:
+              stroke-color: "#ffcc00"
+              stroke-width: 1
+              stroke-graphic:
+                size: 12
+                symbols:
+                  - mark:
+                      shape: shape://vertline
+                      stroke-color: "#ffcc00"
+                      stroke-width: 1

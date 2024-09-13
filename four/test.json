@@ -1,0 +1,369 @@
+{
+    "version": 8,                                               版本号 
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",  字体资源位置
+    "name": "LRDL",                                             样式名称
+    "sources": {
+        "vector-source": {                                      矢量数据源
+            "type": "vector",                                   类型是矢量数据
+            "tiles": [                                          
+                "URL to tiles - LRDL"                           包含一个数组，数组中是提供矢量瓦片服务的 URL。这里应该替换为实际的 URL 字符串。
+            ],
+            "minZoom": 0,                                       最小缩放级别
+            "maxZoom": 20                                       最大缩放级别
+        }
+    },
+    "layers": [
+        {
+            "type": "line",                                     多个图层，每个图层都基于 "vector-source"数据源
+            "paint": {                                          线条样式
+                "line-width": 3.277857142857142,                宽度
+                "line-opacity": 1.0,                            透明度
+                "line-color": "#ffe139"                         颜色
+            },
+            "layout": {                                         
+                "line-cap": "square",                           端点形状：square（正方形），butt（平直），round（圆滑），triangle（三角形）
+                "line-join": "bevel"                            线条交汇样式：bevel（交汇处形成斜面），miter（尖角），round（圆滑）
+            },
+            "filter": [                                         过滤条件
+                "==",                                           
+                [
+                    "get",                                      
+                    "RTEG"                                      
+                ],
+                "\u9ad8"                                        条件是rteg中的属性值等于高
+            ],
+            "source": "vector-source",                          
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#0)\u56fd\u9053:0",
+            "minzoom": 6.542161335390952,
+            "maxzoom": 24
+        },
+        {
+            "type": "line",
+            "paint": {
+                "line-width": 2.521428571428571,
+                "line-opacity": 1.0,
+                "line-color": "#d0b100"
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e00"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#1)\u56fd\u9053:0",
+            "minzoom": 6.542161335390952,
+            "maxzoom": 24
+        },
+        {
+            "type": "line",
+            "paint": {
+                "line-width": 2.521428571428571,
+                "line-opacity": 1.0,
+                "line-color": "#ffba75"
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e8c"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#2)\u56fd\u9053:0",
+            "minzoom": 8.127123836112107,
+            "maxzoom": 24
+        },
+        {
+            "type": "line",
+            "paint": {
+                "line-width": 2.521428571428571,
+                "line-opacity": 1.0,
+                "line-color": "#f4c77e"
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e09"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#3)\u56fd\u9053:0",
+            "minzoom": 9.127123836112107,
+            "maxzoom": 24
+        },
+        {
+            "type": "line",
+            "paint": {
+                "line-width": 3.571428571428571,
+                "line-opacity": 1.0,
+                "line-color": "#a47158"
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u56db"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#4):0",
+            "minzoom": 9.44905193099947,
+            "maxzoom": 18.092908120774194
+        },
+        {
+            "type": "line",
+            "paint": {
+                "line-width": 3.571428571428571,
+                "line-opacity": 1.0,
+                "line-color": "#fd6f23"
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "filter": [
+                "==",
+                [
+                    "==",
+                    [
+                        "get",
+                        "RTEG"
+                    ],
+                    null
+                ],
+                "\u7b49"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#5):0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 18.092908120774194
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#c5b13c"
+            },
+            "layout": {
+                "text-field": [
+                    "+",
+                    [
+                        "get",
+                        "RN"
+                    ],
+                    [
+                        "get",
+                        "NAME"
+                    ]
+                ],
+                "text-size": 12.607142857142854,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u9ad8"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#6)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#c5b13c"
+            },
+            "layout": {
+                "text-field": [
+                    "get",
+                    "NAME"
+                ],
+                "text-size": 12.607142857142854,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e00"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#7)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#f9d357"
+            },
+            "layout": {
+                "text-field": [
+                    "get",
+                    "NAME"
+                ],
+                "text-size": 16.389285714285712,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e8c"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#8)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#f9d357"
+            },
+            "layout": {
+                "text-field": [
+                    "get",
+                    "NAME"
+                ],
+                "text-size": 16.389285714285712,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u4e09"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#9)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#f9d357"
+            },
+            "layout": {
+                "text-field": [
+                    "get",
+                    "NAME"
+                ],
+                "text-size": 16.389285714285712,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "RTEG"
+                ],
+                "\u56db"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#10)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        },
+        {
+            "type": "symbol",
+            "paint": {
+                "text-halo-width": "3.571428571428571",
+                "text-halo-color": "#000000",
+                "text-color": "#f9d357"
+            },
+            "layout": {
+                "text-field": [
+                    "get",
+                    "NAME"
+                ],
+                "text-size": 16.389285714285712,
+                "text-font": [
+                    "Arial"
+                ]
+            },
+            "filter": [
+                "==",
+                [
+                    "==",
+                    [
+                        "get",
+                        "RTEG"
+                    ],
+                    null
+                ],
+                "\u7b49"
+            ],
+            "source": "vector-source",
+            "source-layer": "LRDL",
+            "id": "LRDL:(rule#11)labeling - \u56fd\u9053:0",
+            "minzoom": 11.44905193099947,
+            "maxzoom": 24
+        }
+    ],
+    "sprite": "spriteSheet"
+}
