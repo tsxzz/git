@@ -26,7 +26,7 @@ Service.interceptors.response.use(
   (response) => {
     const data = response.data;
     console.log(data);
-    if (data.meta.status != 200) {
+    if (data.meta.status != 200 && data.meta.state != 201) {
       //请求出错
       let cuowu = data.meta.msg;
       ElMessage({

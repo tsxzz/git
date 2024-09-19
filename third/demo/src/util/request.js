@@ -54,3 +54,34 @@ export const rolesListApi = (data) => {
     data,
   });
 };
+
+//新建角色
+export const addRolesApi = (data) => {
+  return post({
+    url: "roles",
+    data,
+  });
+};
+
+//编辑角色
+export const editRolesApi = (data) => {
+  return put({
+    url: `roles/${data.id}`,
+    data,
+  });
+};
+
+//删除角色
+export const rolesDelateApi = (data) => {
+  return del({
+    url: `roles/${data.id}`,
+  });
+};
+
+//获取商品
+export const goodsListApi = (data) => {
+  return get({
+    url: "goods",
+    data,
+  });
+};

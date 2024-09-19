@@ -25,6 +25,15 @@
           <el-menu-item index="/roles">角色列表</el-menu-item>
         </el-menu-item-group>
       </el-sub-menu>
+      <el-sub-menu index="3">
+        <template #title>
+          <el-icon><Switch /></el-icon>
+          <span>商品管理</span>
+        </template>
+        <el-menu-item-group>
+          <el-menu-item index="/good">商品列表</el-menu-item>
+        </el-menu-item-group>
+      </el-sub-menu>
     </el-menu>
   </div>
 </template>

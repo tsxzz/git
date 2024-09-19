@@ -1,0 +1,15 @@
+feature-styles:
+  - name: name
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: "#ff00ff"
+              stroke-width: 1.89
+          - line:
+              stroke-color: "#ffffff"
+              stroke-width: 1.5
+          - line:
+              stroke-color: "#ff00ff"
+              stroke-width: 1.89
+              stroke-dasharray: "7.75 22.7"
+  #此线可以用于轻轨（430102）样式

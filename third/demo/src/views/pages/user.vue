@@ -10,7 +10,7 @@
       <div class="flex">
         <div class="input_box">
           <el-input
-            v-model="keyWord"
+            v-model="searchParams.query"
             placeholder="搜索关键字"
             class="input-with-select"
           >

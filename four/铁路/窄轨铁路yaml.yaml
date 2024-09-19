@@ -8,5 +8,5 @@ feature-styles:
           - line:
               stroke-color: "#000000"
               stroke-width: 3.8
-              stroke-dasharray: "1 4 1 4 1 38.8"
-#此线可以用于复线410102样式，底下像素表示每10毫米生成一组三线，组和组之间间隔10毫米，实线粗0.4毫米
+              stroke-dasharray: "1 13.6"
+#此线可以用于窄轨铁路（410200）样式，每4毫米实线上附着一个短线

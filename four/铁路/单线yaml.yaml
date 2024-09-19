@@ -1,23 +1,13 @@
+name: railroad
 feature-styles:
-  - name: railroad
+  - name: name
     rules:
       - symbolizers:
-          - line:
+          - line: #实线
               stroke-color: "#000000"
-              stroke-width: 12
-              stroke-dasharray: "36 4" # 每9毫米实线和1毫米空白间隔
-
-          - line:
-              stroke-color: "#FF0000" # 短线的颜色
-              stroke-width: 1
-              stroke-dasharray: "0.4 8.6" # 短线长度为0.4毫米，间隔为8.6毫米（总长9毫米中的部分）
-              stroke-graphic:
-                size: 0.4 # 短线的长度，约0.4毫米
-                symbols:
-                  - mark:
-                      shape: shape://vertline # 垂直短线
-                      stroke-color: "#FF0000"
-                      stroke-width: 1
-                # 确保短线垂直于实线，并在实线的中间
-                anchor-point: [0.5, 0.5]
-                displacement: "0,-6" # 垂直偏移，确保短线在9毫米实线的中间位置
+              stroke-width: 1.5
+          - line: #虚线
+              stroke-color: "#000000"
+              stroke-width: 3.8
+              stroke-dasharray: "1 37.8"
+#用于生成单线410101样式，每10毫米生成一个1毫米短线的样式，实线粗0.4毫米
