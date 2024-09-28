@@ -1,6 +1,8 @@
 feature-styles:
   - name: name
     rules:
+      # 样式规则 4：GB 字段为 410200 的窄轨铁路样式
+      - filter: "[GB] = '410200'"
       - symbolizers:
           - line:
               stroke-color: "#000000"

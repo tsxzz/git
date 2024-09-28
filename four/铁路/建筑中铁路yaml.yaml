@@ -1,6 +1,8 @@
 feature-styles:
   - name: railroad
     rules:
+      # 样式规则 3：GB 字段为 410103 的建筑中铁路样式
+      - filter: "[GB] = '410103'"
       - symbolizers:
           - line:
               stroke-color: "#000000"

@@ -2,6 +2,8 @@ name: railroad
 feature-styles:
   - name: name
     rules:
+      # 样式规则 1：GB 字段为 410101 的单线样式
+      - filter: "[GB] = '410101'"
       - symbolizers:
           - line: #实线
               stroke-color: "#000000"

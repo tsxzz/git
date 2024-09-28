@@ -1,6 +1,8 @@
 feature-styles:
   - name: name
     rules:
+      # 样式规则 2：GB 字段为 410102 的复线样式
+      - filter: "[GB] = '410102'"
       - symbolizers:
           - line:
               stroke-color: "#000000"

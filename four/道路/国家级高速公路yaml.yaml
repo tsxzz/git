@@ -11,7 +11,7 @@ feature-styles:
           - text:
               label: ${RN}
               anchor: [0.5, 0.5]
-              fill-color: black
+              fill-color: "#ffffff"
               font-family: SansSerif
               font-weight: bold
               font-size: 8
@@ -21,5 +21,6 @@ feature-styles:
               graphic:
                 symbols:
                   - external:
-                      url: 1.png
-                      format: image/jpg
+                      url: 国家级高速公路.png #这个图片需要在图标下选择insert image
+                      format: image/png
+#此线可以用于地铁（430101）样式

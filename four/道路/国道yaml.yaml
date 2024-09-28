@@ -3,23 +3,25 @@ feature-styles:
     rules:
       - symbolizers:
           - line:
-              stroke-color: "#d76d03"
+              stroke-color: "#ddbb663"
               stroke-width: 2
           - line:
-              stroke-color: "#f7810b"
+              stroke-color: "#FFF0BB"
               stroke-width: 1.89
           - text:
               label: ${RN}
               anchor: [0.5, 0.5]
-              fill-color: black
+              fill-color: "#ffffff"
               font-family: SansSerif
               font-weight: bold
-              font-size: 8
+              font-size: 12
               x-graphic-resize: stretch
-              x-graphic-margin: 6
+              x-graphic-margin: 5
               geometry: ${interiorPoint(the_geom)}
+              max-displacement: 50 # 标注间距的最大位移
+              space-around: 10 # 控制标注周围的空间，防止重叠
               graphic:
                 symbols:
                   - external:
-                      url: 1.png
-                      format: image/jpg
+                      url: 国道2.png
+                      format: image/png
