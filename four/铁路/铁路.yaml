@@ -3,6 +3,7 @@ feature-styles:
     rules:
       # 样式规则 1：GB 字段为 410101 的单线样式
       - filter: "[GB] = '410101'"
+      - title: 道路线
         symbolizers:
           - line: #实线
               stroke-color: "#000000"
@@ -14,6 +15,7 @@ feature-styles:
 
       # 样式规则 2：GB 字段为 410102 的复线样式
       - filter: "[GB] = '410102'"
+      - title: 道路线
         symbolizers:
           - line:
               stroke-color: "#000000"
@@ -25,12 +27,12 @@ feature-styles:
 
       # 样式规则 3：GB 字段为 410103 的建筑中铁路样式
       - filter: "[GB] = '410103'"
+      - title: 道路线
         symbolizers:
           - line:
               stroke-color: "#000000"
               stroke-width: 1.5
               stroke-dasharray: "35.7 3.8" # 每9毫米实线和1毫米空白间隔
-
           - line:
               stroke-color: "#000000" # 短线的颜色
               stroke-width: 3.8
@@ -38,6 +40,7 @@ feature-styles:
 
       # 样式规则 4：GB 字段为 410200 的窄轨铁路样式
       - filter: "[GB] = '410200'"
+      - title: 道路线
         symbolizers:
           - line:
               stroke-color: "#000000"
@@ -49,6 +52,7 @@ feature-styles:
 
       # 样式规则 5：GB 字段为 430101 的地铁样式
       - filter: "[GB] = '430101'"
+      - title: 道路线
         symbolizers:
           - line:
               stroke-color: "#ff00ff"
@@ -63,6 +67,7 @@ feature-styles:
 
       # 样式规则 6：GB 字段为 430102 的磁浮铁轨，轻轨线路样式
       - filter: "[GB] = '430102'"
+      - title: 道路线
         symbolizers:
           - line:
               stroke-color: "#ff00ff"

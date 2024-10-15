@@ -2,8 +2,9 @@ feature-styles:
   - name: name
     rules:
       # 样式规则 5：GB 字段为 430101 的地铁样式
-      - filter: "[GB] = '430101'"
-      - symbolizers:
+      - title: 地铁线
+        scale: [30,300000]
+        symbolizers:
           - line:
               stroke-color: "#ff00ff"
               stroke-width: 1.89

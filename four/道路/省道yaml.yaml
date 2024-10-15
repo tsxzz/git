@@ -1,23 +1,33 @@
 feature-styles:
   - name: name
     rules:
-      - symbolizers:
+      - title: 道路预备线
+        scale: [500000,1700000]
+        symbolizers:
+          - line:
+              stroke-color: "#ddbb663"
+              stroke-width: 0.1
+      - title: 道路线
+        scale: [30,500000]
+        symbolizers:
           - line:
               stroke-color: "#ddbb663"
               stroke-width: 2
           - line:
               stroke-color: "#FFF0BB"
               stroke-width: 1.89
+      - title: 道路注记
+        scale: [30,300000]
+        symbolizers:
           - text:
               label: ${RN}
               anchor: [0.5, 0.5]
               fill-color: "#000000"
               font-family: SansSerif
               font-weight: bold
-              font-size: 10
+              font-size: 8
               x-graphic-resize: stretch
               x-graphic-margin: 4
-              geometry: ${interiorPoint(the_geom)}
               max-displacement: 50 # 标注间距的最大位移
               space-around: 10 # 控制标注周围的空间，防止重叠
               graphic:

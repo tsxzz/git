@@ -1,14 +1,8 @@
 feature-styles:
   - name: name
     rules:
-      - title: 道路线预备线
-        scale: [17000000,20000000]
-        symbolizers:
-          - line:
-              stroke-color: '#d76d03'
-              stroke-width: 0.1
       - title: 道路线
-        scale: [10,17000000]
+        scale: [1000000,17000000]
         symbolizers:
           - line:
               stroke-color: '#d76d03'
@@ -17,7 +11,7 @@ feature-styles:
               stroke-color: '#f7810b'
               stroke-width: 1.89
       - title: 道路注记
-        scale: [10,1700000]
+        scale: [1000000,1700000]
         symbolizers:
           - text:
               label: ${RN}
@@ -28,8 +22,9 @@ feature-styles:
               font-size: 8
               x-graphic-resize: stretch
               x-graphic-margin: 6
+              geometry: ${interiorPoint(the_geom)}
               graphic:
                 symbols:
                   - external:
-                      url: 省级高速公路3.png #这个图片需要在图标下选择insert image
+                      url: 国家级高速公路3.png #这个图片需要在图标下选择insert image
                       format: image/png

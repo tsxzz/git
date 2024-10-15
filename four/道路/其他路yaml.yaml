@@ -1,35 +1,31 @@
 feature-styles:
   - name: name
     rules:
-      - title: 道路线预备线
-        scale: [17000000,20000000]
-        symbolizers:
-          - line:
-              stroke-color: '#d76d03'
-              stroke-width: 0.1
       - title: 道路线
-        scale: [10,17000000]
+        scale: [30,300000]
         symbolizers:
           - line:
-              stroke-color: '#d76d03'
+              stroke-color: "#989393"
               stroke-width: 2
           - line:
-              stroke-color: '#f7810b'
+              stroke-color: "#ffffff"
               stroke-width: 1.89
       - title: 道路注记
-        scale: [10,1700000]
+        scale: [30,300000]
         symbolizers:
           - text:
               label: ${RN}
               anchor: [0.5, 0.5]
-              fill-color: "#ffffff"
+              fill-color: "#000000"
               font-family: SansSerif
               font-weight: bold
-              font-size: 8
+              font-size: 12
               x-graphic-resize: stretch
-              x-graphic-margin: 6
+              x-graphic-margin: 5
+              max-displacement: 50 # 标注间距的最大位移
+              space-around: 10 # 控制标注周围的空间，防止重叠
               graphic:
                 symbols:
                   - external:
-                      url: 省级高速公路3.png #这个图片需要在图标下选择insert image
+                      url: 乡道和县道.png
                       format: image/png

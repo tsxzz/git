@@ -1,0 +1,20 @@
+feature-styles:
+- name: name
+  rules:
+  - title: 国界
+    scale: [30, 300000000]
+    symbolizers:
+    - polygon:
+        stroke-color: '#ff6c6c'
+        stroke-width: 2
+  - title: 中国注记
+    scale: [30000000,300000000]
+    symbolizers:
+    - text:
+        label: ${"ENG_NAME"}
+        fill-color: '#ff0000'
+        font-family: Aria
+        font-size: 30
+        font-style: italic
+        font-weight: normal
+        geometry: ${interiorPoint(the_geom)}

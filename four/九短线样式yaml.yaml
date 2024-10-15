@@ -1,0 +1,9 @@
+feature-styles:
+- name: name
+  rules:
+  - title: 国界
+    scale: [1000000, 300000000]
+    symbolizers:
+    - polygon:
+        stroke-color: '#ff6c6c'
+        stroke-width: 2
