@@ -1,0 +1,17 @@
+feature-styles:
+  - name: 190102Line
+  - title: 河流、沟渠方向
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.89
+          - point:
+              size: 12
+              rotation: ${startAngle(the_geom)+90} # 旋转角度
+              geometry: ${startPoint(the_geom)} # 缓冲并取中心点
+              displacement: [5,1]  # 偏移量，格式为 (<x>,<y>)
+              symbols:
+              - external:
+                  url: svg/Diy/190102Point.svg
+                  format: image/svg

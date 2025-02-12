@@ -1,0 +1,16 @@
+feature-styles:
+  - name: 160903
+  - title: 栈桥式码头
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.9
+          - point:
+              size: 7
+              rotation: ${endAngle(the_geom)} # 旋转角度
+              geometry: ${endPoint(the_geom)} # 缓冲并取中心点
+              symbols:
+              - external:
+                  url: svg/Diy/160901.svg
+                  format: image/svg

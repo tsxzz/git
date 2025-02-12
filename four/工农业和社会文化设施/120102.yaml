@@ -1,0 +1,9 @@
+name: 120102
+title: 水塔
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120102.svg
+          format: image/svg

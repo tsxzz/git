@@ -1,0 +1,26 @@
+feature-styles:
+  - name: 200611
+    title: 龟裂地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          # 第一层填充图案
+          - polygon:
+              fill-graphic:
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200611.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 0 0 45.6 45.6  # 均匀边距
+          # 第一层填充图案
+          - polygon:
+              fill-graphic:
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200611.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 22.6 22.6 22.6 22.6 # 均匀边距

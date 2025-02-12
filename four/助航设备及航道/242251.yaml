@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 242251
+    title: 警戒区
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#ff0000'
+            stroke-width: 0.76
+            stroke-dasharray: '9.45 3.02'

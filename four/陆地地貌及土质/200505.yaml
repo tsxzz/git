@@ -1,0 +1,9 @@
+name: 200505
+title: 溶斗、漏斗
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/200505.svg
+          format: image/svg

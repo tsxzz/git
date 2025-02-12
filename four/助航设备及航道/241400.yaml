@@ -1,0 +1,9 @@
+name: 241400
+title: 锥形浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241400.svg
+          format: image/svg

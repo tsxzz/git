@@ -37,6 +37,7 @@ import {
   onBeforeUpdate,
   onUpdated,
 } from "vue";
+
 export default {
   name: "about",
   setup() {

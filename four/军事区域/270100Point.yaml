@@ -1,0 +1,9 @@
+name: 270100Point
+title: 军事训练区
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/270100.svg
+          format: image/svg

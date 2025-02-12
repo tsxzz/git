@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 200106
+    rules:
+      - title: 任意曲线
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.76
+              stroke-dasharray: 7.56 1.89     # 设置虚线样式（4像素实线，2像素间隔）

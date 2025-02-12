@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 210116
+    title: 领海线
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#f5adce'
+            stroke-width: 0.76
+

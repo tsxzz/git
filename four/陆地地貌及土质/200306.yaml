@@ -1,0 +1,15 @@
+feature-styles:
+  - name: 200306
+    rules:
+      - title: 冰碛
+        symbolizers:
+          - line:
+              stroke-graphic:
+                size: 8                  # 图案的大小（单位是像素）
+                symbols:
+                  - external:
+                      url: svg/Diy/200306.svg # 替换为你的 SVG 文件路径
+                      format: image/svg
+              stroke-width: 0.76         # 设置线的宽度
+              stroke-color: '#b97b0b'    # 如果需要结合颜色
+              stroke-dasharray: 7 7     # 设置虚线样式（4像素实线，2像素间隔）

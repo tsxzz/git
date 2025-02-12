@@ -1,0 +1,66 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor" : "#FFFFFF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单",
+				"navigationBarBackgroundColor" : "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户",
+				"navigationBarBackgroundColor" : "#FFFFFF"
+			}
+		},
+		{
+			"path" : "pages/seach/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索医院",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#535353",
+		"selectedColor": "#0bb584",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+		"pagePath": "pages/index/index",
+		"iconPath": "static/tab_index.png",
+		"selectedIconPath": "static/tab_index_seled.png",
+		"text": "首页"
+	}, {
+		"pagePath": "pages/order/index",
+		"iconPath": "static/tab_pub.png",
+		"selectedIconPath": "static/tab_pub_seled.png",
+		"text": "订单"
+	},
+	{
+		"pagePath": "pages/user/index",
+		"iconPath": "static/tab_user.png" ,
+		"selectedIconPath": "static/tab_user_seled.png",
+		"text": "用户"
+	}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

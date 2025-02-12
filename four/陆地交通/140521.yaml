@@ -1,0 +1,27 @@
+feature-styles:
+  - name: 140521
+    title: 人行桥
+    rules:
+      # 线段主体
+      - symbolizers:
+          - line:
+              stroke-color: "#000000"
+              stroke-width: 1
+          - point:
+              size: 8
+              rotation: ${endAngle(the_geom)+180} # 旋转角度
+              geometry: ${endPoint(the_geom)} # 缓冲并取中心点
+              anchor: [0.5, 0.5]                # 定义svg中心
+              symbols:
+              - external:
+                  url: svg/Diy/140521.svg
+                  format: image/svg
+          - point:
+              size: 8
+              rotation: ${startAngle(the_geom)} # 旋转角度
+              geometry: ${startPoint(the_geom)} # 缓冲并取中心点
+              anchor: [0.5, 0.5]                # 定义svg中心
+              symbols:
+              - external:
+                  url: svg/Diy/140521.svg
+                  format: image/svg

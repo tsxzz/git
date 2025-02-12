@@ -1,0 +1,13 @@
+feature-styles:
+  - name: 200806
+    rules:
+      - title: 石质陡崖
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.76
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 2
+              stroke-dasharray: 1 3.78     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: 2

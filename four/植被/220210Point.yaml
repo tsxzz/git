@@ -1,0 +1,9 @@
+name: 220210Point
+title: 高草地
+symbolizers:
+  - point:
+      size: 8 
+      symbols:
+      - external:
+          url: svg/Diy/220210.svg
+          format: image/svg

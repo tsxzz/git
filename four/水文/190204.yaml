@@ -1,0 +1,9 @@
+name: 190204
+title: 洋流
+symbolizers:
+  - point:
+      size: 5
+      symbols:
+      - external:
+          url: svg/Diy/190204.svg
+          format: image/svg

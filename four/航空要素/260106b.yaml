@@ -1,0 +1,9 @@
+name: 260106b
+title: 民用次要机场
+symbolizers:
+  - point:
+      size: 10
+      symbols:
+      - external:
+          url: svg/Diy/260106b.svg
+          format: image/svg

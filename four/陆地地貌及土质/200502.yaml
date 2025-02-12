@@ -1,0 +1,9 @@
+name: 200502
+title: 孤峰
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/200502.svg
+          format: image/svg

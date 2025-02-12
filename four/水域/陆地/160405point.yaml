@@ -1,0 +1,9 @@
+name: 160405Point
+title: 烟囱
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/160405Point.svg
+          format: image/svg

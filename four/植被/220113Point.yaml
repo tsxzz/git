@@ -1,0 +1,9 @@
+name: 220113Point
+title: 稀疏灌木丛
+symbolizers:
+  - point:
+      size: 8 
+      symbols:
+      - external:
+          url: svg/Diy/220113.svg
+          format: image/svg

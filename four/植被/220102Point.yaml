@@ -1,0 +1,9 @@
+name: 220102Point
+title: 矮林、幼林、苗圃
+symbolizers:
+  - point:
+      size: 8
+      symbols:
+      - external:
+          url: svg/Diy/220102.svg
+          format: image/svg

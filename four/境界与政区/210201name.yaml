@@ -1,0 +1,13 @@
+feature-styles:
+  - name: 210201name
+    title: 省、自治区、直辖市界
+    rules:
+      - symbolizers:
+          - text:
+              label: ${Name}          # 显示数据中 Name 字段的值
+              fill-color: '#d2cfcf'   # 文本填充颜色
+              font-size: 12
+              geometry: ${centroid(the_geom)}  # 使用多边形的中心点
+              halo:
+                fill-color: '#797979' # 描边颜色（黑色）
+                radius: 2             # 描边半径（以像素为单位）

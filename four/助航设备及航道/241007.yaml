@@ -1,0 +1,9 @@
+name: 241007
+title: X顶灯船有人看守
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/241007.svg
+          format: image/svg

@@ -1,0 +1,9 @@
+name: 241100
+title: 大型浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241100.svg
+          format: image/svg

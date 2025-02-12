@@ -1,0 +1,10 @@
+name: 140521Point
+title: 人行桥Point
+symbolizers:
+  # 图标样式
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/140521Point.svg
+          format: image/svg

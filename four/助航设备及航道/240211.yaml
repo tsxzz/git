@@ -1,0 +1,9 @@
+name: 240211
+title: 灯桩
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/240211.svg
+          format: image/svg

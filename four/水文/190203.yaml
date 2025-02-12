@@ -1,0 +1,9 @@
+name: 190203
+title: 海流
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/190203.svg
+          format: image/svg

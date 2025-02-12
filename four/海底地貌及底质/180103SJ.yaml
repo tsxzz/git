@@ -1,0 +1,9 @@
+name: 180103SH
+title: 暗礁珊瑚
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180103SH.svg
+          format: image/svg

@@ -1,0 +1,24 @@
+feature-styles:
+  - name: 130206
+    title: 空地、广场
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#b0a9a9'         # 外层填充颜色
+              fill-opacity: 0.9             # 外层透明度
+              stroke-color: '#000000'       # 外层描边颜色
+              stroke-width: 3               # 外层描边宽度
+              stroke-opacity: 1             # 外层描边透明度
+              geometry: ${buffer(the_geom, 0)} # 动态缓冲区，外层面
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#ffffff'         # 外层填充颜色
+              fill-opacity: 1             # 外层透明度
+              stroke-color: '#000000'       # 外层描边颜色
+              stroke-width: 3               # 外层描边宽度
+              stroke-opacity: 1             # 外层描边透明度
+              geometry: ${buffer(the_geom, -0.0001)} # 动态缓冲区，外层面
+              #buffer(the_geom)的这个函数要根据数据里面的name字段对应
+

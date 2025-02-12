@@ -1,0 +1,9 @@
+name: 241905
+title: 雷达应答站
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241905.svg
+          format: image/svg

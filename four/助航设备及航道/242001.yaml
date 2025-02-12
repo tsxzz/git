@@ -1,0 +1,15 @@
+name: 242001
+title: 无线电站
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241905.svg
+          format: image/svg
+  # 标注样式
+  - text:
+      label: "雷达" 
+      fill-color: 'red'
+      font-size: 8
+      displacement: [7,1]  # 偏移量，格式为 (<x>,<y>)

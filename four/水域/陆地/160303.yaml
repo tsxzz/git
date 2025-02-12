@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 160303
+    title: 沟渠
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.94

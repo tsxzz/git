@@ -1,0 +1,57 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor" : "#F8F8F8"
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarBackgroundColor" : "#F8F8F8"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#dbdbdb",
+		"selectedColor": "#ffac46",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/image/home/index.png",
+			"selectedIconPath": "static/image/home/active.png",
+			"text": "极速沟通"
+		}, {
+			"pagePath": "pages/order/index",
+			"iconPath": "static/image/order/index.png",
+			"selectedIconPath": "static/image/order/active.png",
+			"text": "电话沟通"
+		},{
+			"pagePath": "pages/user/index",
+			"iconPath": "static/image/user/index.png",
+			"selectedIconPath": "static/image/user/active.png",
+			"text": "个人中心"
+		}
+		
+	]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

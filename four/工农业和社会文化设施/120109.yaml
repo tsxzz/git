@@ -1,0 +1,18 @@
+feature-styles:
+  - name: 120109
+  - title: 露天矿、采掘场 
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: "#000000"
+              stroke-width: 0.5
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 0.6
+              stroke-dasharray: '0.57 5.67'
+              offset: -1  # 偏移值，单位是像素或地图单位
+          - text:
+              label: "石" 
+              fill-color: 'black'
+              font-size: 8
+              displacement: [5,1]  # 偏移量，格式为 (<x>,<y>)

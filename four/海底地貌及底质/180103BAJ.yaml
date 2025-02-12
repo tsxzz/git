@@ -1,0 +1,9 @@
+name: 180103BAJ
+title: 不依比例暗礁
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180103BAJ.svg
+          format: image/svg

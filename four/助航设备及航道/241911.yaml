@@ -1,0 +1,9 @@
+name: 241911
+title: 雷达反射器
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241911.svg
+          format: image/svg

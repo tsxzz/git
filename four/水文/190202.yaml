@@ -1,0 +1,9 @@
+name: 190202
+title: 落潮流
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/190202.svg
+          format: image/svg

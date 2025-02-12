@@ -1,0 +1,27 @@
+feature-styles:
+  - name: 200601
+    title: 平沙地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          # 第一层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 2
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200601.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 0 0 22.8 22.8  # 均匀边距
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 2
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200601.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 11.4 11.4 11.4 11.4  # 均匀边距

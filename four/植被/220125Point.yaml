@@ -1,0 +1,9 @@
+name: 220125Point
+title: 经济林
+symbolizers:
+  - point:
+      size: 8 
+      symbols:
+      - external:
+          url: svg/Diy/220125.svg
+          format: image/svg

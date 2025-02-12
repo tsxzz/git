@@ -1,0 +1,11 @@
+name: 130204
+title: 普通街区
+symbolizers:
+  # 图标样式
+  - polygon:
+        fill-color: '#b0a9a9'
+        fill-opacity: 0.9    #透明度
+        stroke-color: '#000000'
+        stroke-width: 3
+        stroke-opacity: 1
+        stroke-linejoin: bevel

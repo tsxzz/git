@@ -1,0 +1,8 @@
+feature-styles:
+  - name: 200806
+    rules:
+      - title: 土质陡崖
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.76

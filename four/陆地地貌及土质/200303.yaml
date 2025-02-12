@@ -1,0 +1,12 @@
+feature-styles:
+  - name: 200303
+    rules:
+      - title: 冰裂原
+        symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.76
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 12
+              stroke-dasharray: 0.76 4 0.76 32     # 设置虚线样式（4像素实线，2像素间隔）

@@ -1,0 +1,9 @@
+name: 241801
+title: 内河助航标志
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241801.svg
+          format: image/svg

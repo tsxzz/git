@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 170112
+  - title: 不精确等深线
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.89
+              stroke-dasharray: '15.12 7.56'

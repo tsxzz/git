@@ -1,0 +1,10 @@
+name: 120321
+title: 古塔
+symbolizers:
+  # 图标样式
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120321.svg
+          format: image/svg

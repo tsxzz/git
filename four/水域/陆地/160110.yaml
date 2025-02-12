@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 160110
+    title: 普通海岸线
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.76

@@ -1,0 +1,8 @@
+feature-styles:
+  - name: 160901
+  - title: 突提式码头
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.45

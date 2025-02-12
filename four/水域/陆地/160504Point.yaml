@@ -1,0 +1,11 @@
+name: 160504Point
+title: 能够通行汽车的水闸
+symbolizers:
+  - point:
+      size: 7
+      rotation: ${startAngle(the_geom)+90} # 旋转角度
+      symbols:
+      - external:
+          url: svg/Diy/160504Point.svg
+          format: image/svg
+

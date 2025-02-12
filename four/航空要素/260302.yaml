@@ -1,0 +1,9 @@
+name: 260302
+title: 航空灯塔
+symbolizers:
+  - point:
+      size: 10
+      symbols:
+      - external:
+          url: svg/Diy/260302.svg
+          format: image/svg

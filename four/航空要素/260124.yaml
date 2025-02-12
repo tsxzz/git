@@ -1,0 +1,9 @@
+name: 260124
+title: 民用一级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260124.svg
+          format: image/svg

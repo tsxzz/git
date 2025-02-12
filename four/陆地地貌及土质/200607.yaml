@@ -1,0 +1,46 @@
+feature-styles:
+  - name: 200607
+    title: 石块地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:  
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200606.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 91.2 91.2 0 0 # 均匀边距
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:  
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200606.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 45.6 45.6 45.6 45.6 # 均匀边距
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:  
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200606.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 90 90 0 0 # 均匀边距
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:  
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200606.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 44 44 44 44 # 均匀边距

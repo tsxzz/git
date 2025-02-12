@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 160101
+    title: 常水位岸线
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.45

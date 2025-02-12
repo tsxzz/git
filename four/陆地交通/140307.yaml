@@ -1,0 +1,7 @@
+feature-styles:
+  - name: 140307
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: "#ffb800"
+              stroke-width: 1.51

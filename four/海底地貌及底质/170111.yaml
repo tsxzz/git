@@ -1,0 +1,26 @@
+feature-styles:
+  - name: 170111
+    rules:
+      - title: 等深线
+        symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 2
+      - title: 等深线值
+        symbolizers:
+          - text:
+              label: ${"水深值"}   #需要和对应的数据中字段水深值保持一致
+              anchor: [0.5, 0.5]
+              fill-color: "#1774BF"
+              font-family: SansSerif
+              font-weight: bold
+              font-size: 15
+              x-graphic-resize: stretch
+              x-graphic-margin: 6
+              geometry: ${centroid(the_geom)} # 缓冲并取中心点
+              graphic:
+                symbols:
+                  - external:
+                      url: 170111.png #这个图片需要在图标下选择insert image
+                      format: image/png
+              x-followLine: true

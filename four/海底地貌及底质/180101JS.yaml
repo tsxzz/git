@@ -1,0 +1,9 @@
+name: 180101JS
+title: 依比例干出礁
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180101JS.svg
+          format: image/svg

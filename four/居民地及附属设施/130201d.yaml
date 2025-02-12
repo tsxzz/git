@@ -1,0 +1,10 @@
+name: 130201d
+title: 重要城市、境内地级政府驻地
+symbolizers:
+  # 图标样式
+  - point:
+      size: 11
+      symbols:
+      - external:
+          url: svg/Diy/130201d.svg
+          format: image/svg

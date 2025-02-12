@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毫米转像素计算器</title>
+    <script>
+        // 将毫米转换为像素
+        function convertToPixels() {
+            const dpi = 96;  // 假设屏幕分辨率为 96 DPI
+            const mmValue = parseFloat(document.getElementById("mmInput").value);
+            
+            if (isNaN(mmValue) || mmValue <= 0) {
+                document.getElementById("result").innerText = "请输入有效的毫米值";
+                return;
+            }
+            
+            const pixelValue = (mmValue / 25.4) * dpi;  // 转换公式
+            document.getElementById("result").innerText = `对应的像素值为: ${pixelValue.toFixed(2)} px`;
+        }
+    </script>
+</head>
+<body>
+    <h1>毫米转像素计算器</h1>
+    <p>请输入毫米值，计算出对应的像素值（假设屏幕分辨率为 96 DPI）：</p>
+    <input type="number" id="mmInput" placeholder="请输入毫米值" />
+    <button onclick="convertToPixels()">转换</button>
+    <p id="result"></p>
+</body>
+</html>

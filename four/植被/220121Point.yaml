@@ -1,0 +1,9 @@
+name: 220121Point
+title: 竹林
+symbolizers:
+  - point:
+      size: 8 
+      symbols:
+      - external:
+          url: svg/Diy/220121.svg
+          format: image/svg

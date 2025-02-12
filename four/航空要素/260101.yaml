@@ -1,0 +1,9 @@
+name: 260101
+title: 军用四级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260101.svg
+          format: image/svg

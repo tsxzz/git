@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 220101
+    title: 森林
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#9ad2ae'         # 填充的颜色
+              fill-opacity: 1            # 填充透明度

@@ -1,0 +1,9 @@
+name: 240700
+title: 立标
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/240700.svg
+          format: image/svg

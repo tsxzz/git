@@ -1,0 +1,9 @@
+name: 200612
+title: 火山口
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/200701.svg
+          format: image/svg

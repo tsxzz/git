@@ -1,0 +1,13 @@
+feature-styles:
+  - name: 161212
+    title: 岩石、珊瑚滩
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#1774BF'         # 填充的颜色
+              fill-opacity: 0.5            # 填充透明度
+              stroke-color: '#1774BF'       # 外层描边颜色
+              stroke-width: 1               # 描边宽度
+              stroke-opacity: 1             # 描边透明度
+      

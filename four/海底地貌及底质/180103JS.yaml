@@ -1,0 +1,9 @@
+name: 180103JS
+title: 暗礁礁石
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180103JS.svg
+          format: image/svg

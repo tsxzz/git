@@ -1,0 +1,9 @@
+name: 120101
+title: 烟囱
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120101.svg
+          format: image/svg

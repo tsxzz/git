@@ -1,0 +1,23 @@
+feature-styles:
+  - name: 250300
+    title: 锚地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              stroke-color: '#ff0000'      # 外层描边颜色
+              stroke-width: 0.57              # 描边宽度
+              stroke-dasharray: 6.80 3.02     # 设置虚线样式（4像素实线，2像素间隔）
+          - line:
+              stroke-color: '#ff0000'      # 外层描边颜色
+              stroke-width: 1          # 描边宽度
+              stroke-dasharray: 1 7.82    # 设置虚线样式（4像素实线，2像素间隔）
+              offset: -2  # 偏移值，单位是像素或地图单位
+              stroke-dashoffset: 5
+          - point:
+              size: 12
+              symbols:
+              - external:
+                  url: svg/Diy/250300.svg
+                  format: image/svg
+

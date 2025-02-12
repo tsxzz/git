@@ -1,0 +1,15 @@
+feature-styles:
+  - name: 120802
+  - title: 砖石城墙、长城损坏部 
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 0.76
+              stroke-dasharray: '8.31 4.54'
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 3.02
+              stroke-dasharray: '0.76 3.78 0.76 7.56'
+              stroke-dashoffset: 5  #向后偏移2mm
+              offset: -2  # 偏移值，单位是像素或地图单位

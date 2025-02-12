@@ -1,0 +1,9 @@
+name: 260105a
+title: 军用主要机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260105a.svg
+          format: image/svg

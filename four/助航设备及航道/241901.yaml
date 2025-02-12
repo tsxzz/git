@@ -1,0 +1,9 @@
+name: 241901
+title: 雷达站
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241901.svg
+          format: image/svg

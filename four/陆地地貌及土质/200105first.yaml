@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 200105first
+    rules:
+      - title: 草绘等高计曲线
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.76
+              stroke-dasharray: 45.35 3.78     # 设置虚线样式（4像素实线，2像素间隔）

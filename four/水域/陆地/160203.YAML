@@ -1,0 +1,14 @@
+feature-styles:
+  - name: 160203
+    title: 消失河段
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.45
+            stroke-dasharray: '7.2 7.2'  # 虚线样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.45
+            stroke-dasharray: '0.45 2'  # 虚线样式

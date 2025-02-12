@@ -1,0 +1,10 @@
+name: 120301
+title: 电视发射塔
+symbolizers:
+  # 图标样式
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120301.svg
+          format: image/svg

@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 140538
+    title: 徒涉场
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            stroke-dasharray: '4.78 0.6'

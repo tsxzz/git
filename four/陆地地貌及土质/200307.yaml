@@ -1,0 +1,10 @@
+name: 200307
+title: 冰塔
+symbolizers:
+  # 图标样式
+  - point:
+      size: 8
+      symbols:
+      - external:
+          url: svg/Diy/200307.svg
+          format: image/svg

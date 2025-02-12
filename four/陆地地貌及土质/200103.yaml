@@ -1,0 +1,27 @@
+feature-styles:
+  - name: 200103
+    rules:
+      - title: 间曲线
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.76
+              stroke-dasharray: 18.90 3.78     # 设置虚线样式（4像素实线，2像素间隔）
+      - title: 等深线值
+        symbolizers:
+          - text:
+              label: ${FID}   #需要和对应的数据中字段高程保持一致
+              anchor: [0.5, 0.5]
+              fill-color: "#b97b0b"
+              font-family: SansSerif
+              font-weight: bold
+              font-size: 15
+              x-graphic-resize: stretch
+              x-graphic-margin: 6
+              geometry: ${centroid(the_geom)} # 缓冲并取中心点
+              graphic:
+                symbols:
+                  - external:
+                      url: 170111.png #这个图片需要在图标下选择insert image
+                      format: image/png
+              x-followLine: true

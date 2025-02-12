@@ -1,0 +1,26 @@
+feature-styles:
+  - name: 200609
+    title: 小草丘地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          # 第一层填充图案
+          - polygon:
+              fill-graphic:
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200609.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 0 0 91.2 91.2  # 均匀边距
+          # 第一层填充图案
+          - polygon:
+              fill-graphic:
+                size: 12
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200609.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 45.6 45.6 45.6 45.6 # 均匀边距

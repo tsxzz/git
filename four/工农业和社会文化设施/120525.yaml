@@ -1,0 +1,7 @@
+name: 120525
+title: 绿地、公园
+symbolizers:
+  # 图标样式
+  - polygon:
+        fill-color: '#c6ddc9'
+        fill-opacity: 0.9    #透明度

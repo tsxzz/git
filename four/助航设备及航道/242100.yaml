@@ -1,0 +1,9 @@
+name: 242100
+title: 雾号
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/242100.svg
+          format: image/svg

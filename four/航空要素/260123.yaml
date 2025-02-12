@@ -1,0 +1,9 @@
+name: 260123
+title: 民用二级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260123.svg
+          format: image/svg

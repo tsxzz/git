@@ -1,0 +1,14 @@
+feature-styles:
+  - name: 160801
+  - title: 一般防波堤、制水坝
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 0.57
+          - line:
+              stroke-color: '#1774BF'
+              stroke-width: 1.89
+              stroke-dasharray: '1.13 3.78'
+
+

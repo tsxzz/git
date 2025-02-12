@@ -1,0 +1,15 @@
+name: 239102
+title: 磁力异常点及磁差值
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/230102.svg
+          format: image/svg
+  # 标注样式2
+  - text:
+      label: "${磁插值}"  # 引用字段 '磁插值' 的值
+      fill-color: 'black'
+      font-size: 8
+      displacement: [5, 1]  # 偏移量，格式为 (<x>, <y>)

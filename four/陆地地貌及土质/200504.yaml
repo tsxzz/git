@@ -1,0 +1,9 @@
+name: 200504
+title: 山洞、溶洞
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/200504.svg
+          format: image/svg

@@ -1,0 +1,9 @@
+name: 260102
+title: 军用三级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260102.svg
+          format: image/svg

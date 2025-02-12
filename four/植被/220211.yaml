@@ -1,0 +1,31 @@
+feature-styles:
+  - name: 220211
+    title: 草地
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#ffffff'         # 填充的颜色
+              fill-opacity: 1            # 填充透明度
+          # 第一层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 6
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/220211.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 11.34 11.34 11.34 11.34  # 均匀边距
+          # 第二层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 6
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/220211.svg'  # 下层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 0 0 22.68 22.68  # 偏移调整至间隔中

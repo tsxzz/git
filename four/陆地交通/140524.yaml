@@ -1,0 +1,64 @@
+feature-styles:
+  - name: 160524
+    title: 并行桥
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#ffffff'
+            stroke-width: 2
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            offset: -4  # 偏移值，单位是像素或地图单位
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            offset: -2  # 偏移值，单位是像素或地图单位
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            offset: 2  # 偏移值，单位是像素或地图单位
+# 开头上的斜线
+        - point:
+            size: 5 
+            rotation: ${startAngle(the_geom)-45} # 旋转角度
+            geometry: ${startPoint(the_geom)} # 缓冲并取中心点
+            anchor: [0.5, 0.5]                # 定义svg中心
+            displacement: [1.5, -4.5]           # 得和anchor配合使用
+            symbols:
+            - external:
+                url: svg/Diy/160508ZX.svg
+                format: image/svg
+        # 开头下的斜线
+        - point:
+            size: 5
+            rotation: ${startAngle(the_geom)-135} # 旋转角度
+            geometry: ${startPoint(the_geom)} # 缓冲并取中心点
+            anchor: [0.5, 0.5]                # 定义svg中心
+            displacement: [-1.5, -4.5]           # 得和anchor配合使用
+            symbols:
+            - external:
+                url: svg/Diy/160508ZX.svg
+                format: image/svg
+        # 尾巴上的斜线
+        - point:
+            size: 5
+            rotation: ${endAngle(the_geom)+45} # 旋转角度
+            geometry: ${endPoint(the_geom)} # 缓冲并取中心点
+            anchor: [0.5, 0.5]                # 定义svg中心
+            displacement: [-1.5, -4.5]           # 得和anchor配合使用
+            symbols:
+            - external:
+                url: svg/Diy/160508ZX.svg
+                format: image/svg
+        # 尾巴下的斜线
+        - point:
+            size: 5
+            rotation: ${endAngle(the_geom)-225} # 旋转角度
+            geometry: ${endPoint(the_geom)} # 缓冲并取中心点
+            anchor: [0.5, 0.5]                # 定义svg中心
+            displacement: [1.5, -4.5]           # 得和anchor配合使用
+            symbols:
+            - external:
+                url: svg/Diy/160508ZX.svg
+                format: image/svg

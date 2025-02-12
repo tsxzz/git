@@ -1,0 +1,9 @@
+name: 190201
+title: 涨潮流
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/190201.svg
+          format: image/svg

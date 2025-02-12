@@ -1,0 +1,13 @@
+feature-styles:
+- name: 200202
+  title: 高程点及概略高程
+  rules:
+  - symbolizers:
+    - text:
+        label: ${"高程值"}   #需要和对应的数据中字段水深值保持一致
+        fill-color: '#b97b0b'
+        font-family: Arial
+        font-size: 12
+        font-style: normal
+        font-weight: bold
+        placement: point

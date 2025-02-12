@@ -1,0 +1,21 @@
+feature-styles:
+  - name: 260403
+    title: 空中危险区及编号
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              stroke-color: '#ff0000'      # 外层描边颜色
+              stroke-width: 0.57              # 描边宽度
+              stroke-dasharray: 7.56 3.78    # 设置虚线样式（4像素实线，2像素间隔）
+          - line:
+              stroke-graphic:
+                size: 10                  # 图案的大小（单位是像素）
+                symbols:
+                  - external:
+                      url: svg/Diy/270100.svg # 替换为你的 SVG 文件路径
+                      format: image/svg
+              stroke-width: 0.76         # 设置线的宽度
+              stroke-color: '#b97b0b'    # 如果需要结合颜色
+              stroke-dasharray: 5 74.38     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: 3  # 偏移值，单位是像素或地图单位

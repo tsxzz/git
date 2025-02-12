@@ -1,0 +1,16 @@
+name: 120315
+title: 地震
+symbolizers:
+  # 图标样式
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120315.svg
+          format: image/svg
+  # 标注样式
+  - text:
+      label: "地震" 
+      fill-color: 'black'
+      font-size: 8
+      displacement: [5,1]  # 偏移量，格式为 (<x>,<y>)

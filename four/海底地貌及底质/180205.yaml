@@ -1,0 +1,9 @@
+name: 180205
+title: 部分船体露出水面的沉船
+symbolizers:
+  - point:
+      size: 8
+      symbols:
+      - external:
+          url: svg/Diy/180205.svg
+          format: image/svg

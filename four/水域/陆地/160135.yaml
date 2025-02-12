@@ -1,0 +1,21 @@
+feature-styles:
+  - name: 160135
+    title: 堤岸
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.78
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 0.78
+            stroke-dashoffset: 0  #向后偏移2mm
+            offset: -2.5  # 偏移值，单位是像素或地图单位 必须配合stroke-dashoffset
+        # 偏移的点
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1.5
+            stroke-dasharray: '1.5 7.56'  # 虚线样式
+            stroke-dashoffset: 0  #向后偏移2mm
+            offset: -4.5  # 偏移值，单位是像素或地图单位 必须配合stroke-dashoffset

@@ -1,0 +1,9 @@
+name: 180202
+title: 适淹礁
+symbolizers:
+  - point:
+      size: 8
+      symbols:
+      - external:
+          url: svg/Diy/180202.svg
+          format: image/svg

@@ -1,0 +1,9 @@
+name: 260121
+title: 民用四级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260121.svg
+          format: image/svg

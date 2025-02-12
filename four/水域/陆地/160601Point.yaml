@@ -1,0 +1,9 @@
+name: 160601Point
+title: 盐田
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/160601.svg
+          format: image/svg

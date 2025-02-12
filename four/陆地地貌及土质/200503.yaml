@@ -1,0 +1,9 @@
+name: 200503
+title: 峰丛
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/200503.svg
+          format: image/svg

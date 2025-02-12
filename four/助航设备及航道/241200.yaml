@@ -1,0 +1,9 @@
+name: 241200
+title: 柱型浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241200.svg
+          format: image/svg

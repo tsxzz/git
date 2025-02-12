@@ -1,0 +1,9 @@
+name: 260104
+title: 军用一级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260104.svg
+          format: image/svg

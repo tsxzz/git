@@ -1,0 +1,9 @@
+name: 240900
+title: 船形灯浮标
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/240900.svg
+          format: image/svg

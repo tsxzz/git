@@ -1,0 +1,10 @@
+name: 120509
+title: 生物制剂厂
+symbolizers:
+  # 图标样式
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/120509.svg
+          format: image/svg

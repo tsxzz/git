@@ -1,0 +1,8 @@
+feature-styles:
+  - name: 200101
+    rules:
+      - title: 首曲线
+        symbolizers:
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 0.38 

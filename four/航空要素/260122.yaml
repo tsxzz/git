@@ -1,0 +1,9 @@
+name: 260122
+title: 民用三级机场
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/260122.svg
+          format: image/svg

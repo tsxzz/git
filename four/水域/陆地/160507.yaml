@@ -1,0 +1,22 @@
+feature-styles:
+  - name: 160507
+    title: 滚水坝 
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#ffffff'
+            stroke-width: 2.78
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            stroke-dasharray: '4.78 1.89'
+            offset: -1.89  # 偏移值，单位是像素或地图单位
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1
+            offset: 1.89  # 偏移值，单位是像素或地图单位
+        - line:
+            stroke-color: '#000000'
+            stroke-width: 1.5
+            stroke-dasharray: '0.6 4.78'
+            offset: 3.5  # 偏移值，单位是像素或地图单位

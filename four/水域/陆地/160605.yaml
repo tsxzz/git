@@ -1,0 +1,9 @@
+name: 160605
+title: 泉
+symbolizers:
+  - point:
+      size: 10
+      symbols:
+      - external:
+          url: svg/Diy/160605.svg
+          format: image/svg

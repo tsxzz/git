@@ -1,0 +1,14 @@
+feature-styles:
+  - name: 210205name
+    title: 县(县级市区)、自治县、旗界
+    rules:
+      - symbolizers:
+          - text:
+              label: ${Name}          # 显示数据中 Name 字段的值
+              fill-color: '#ffffff'   # 文本填充颜色
+              font-size: 10
+              geometry: ${centroid(the_geom)}  # 使用多边形的中心点
+              halo:
+                fill-color: '#fb9c00' # 描边颜色（黑色）
+                radius: 1             # 描边半径（以像素为单位）
+`

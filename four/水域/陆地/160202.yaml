@@ -1,0 +1,10 @@
+feature-styles:
+  - name: 160202
+    title: 时令河
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.45
+            stroke-dasharray: '5.4 1.89'  # 虚线样式

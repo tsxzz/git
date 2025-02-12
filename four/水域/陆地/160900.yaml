@@ -1,0 +1,9 @@
+name: 160900
+title: 巷口
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/160900.svg
+          format: image/svg

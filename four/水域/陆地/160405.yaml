@@ -1,0 +1,16 @@
+feature-styles:
+  - name: 160405
+    title: 水库
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 1.89
+        - point:
+            size: 7
+            rotation: ${startAngle(the_geom)-90} # 旋转角度
+            geometry: ${startPoint(the_geom)} # 动态缓冲区，外层面
+            symbols:
+            - external:
+                url: svg/Diy/160405.svg
+                format: image/svg

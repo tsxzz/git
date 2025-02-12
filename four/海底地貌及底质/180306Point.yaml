@@ -1,0 +1,9 @@
+name: 180306Point
+title: 危险区
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180306Point.svg
+          format: image/svg

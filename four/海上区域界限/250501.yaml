@@ -1,0 +1,9 @@
+name: 250501
+title: 海上平台
+symbolizers:
+  - point:
+      size: 10
+      symbols:
+      - external:
+          url: svg/Diy/250501.svg
+          format: image/svg

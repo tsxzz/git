@@ -1,0 +1,37 @@
+feature-styles:
+  - name: 160511
+    title: 蓄洪区
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#ffffff'         # 填充的颜色
+              fill-opacity: 0.5            # 填充透明度
+              stroke-color: '#1774BF'       # 外层描边颜色
+              stroke-width: 1               # 描边宽度
+              stroke-opacity: 1             # 描边透明度
+              stroke-dasharray: 7.56 1.89     # 设置虚线样式（4像素实线，2像素间隔）
+          # 第一层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 2
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/160511.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 11.34 11.34 11.34 11.34  # 均匀边距
+          # 第二层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 2
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/160511.svg'  # 下层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 0 0 22.68 22.68  # 偏移调整至间隔中
+
+              #这个插空是要间隔加起来是要等于这个下面的svg

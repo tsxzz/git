@@ -1,0 +1,9 @@
+name: 241600
+title: 罐形浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241600.svg
+          format: image/svg

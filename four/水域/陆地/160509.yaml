@@ -1,0 +1,9 @@
+name: 160509
+title: 井
+symbolizers:
+  - point:
+      size: 10
+      symbols:
+      - external:
+          url: svg/Diy/160509.svg
+          format: image/svg

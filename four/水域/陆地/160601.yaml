@@ -1,0 +1,23 @@
+feature-styles:
+  - name: 160601
+    title: 盐田
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              fill-color: '#ffffff'         # 填充的颜色
+              fill-opacity: 0.5            # 填充透明度
+              stroke-color: '#1774BF'       # 外层描边颜色
+              stroke-width: 1               # 描边宽度
+              stroke-opacity: 1             # 描边透明度
+          # 图案填充
+          - polygon:
+              fill-graphic:
+                size: 6                    # 图案大小，减小边长增加密度
+                spacing: 12                 # 图案间距，减小间距增加密度
+                symbols:
+                - mark:
+                    shape: square           # 使用正方形作为图案
+                    fill-opacity: 0         # 图案透明度
+                    stroke-color: '#1774BF' # 图案描边颜色
+                    stroke-width: 1         # 图案描边宽度

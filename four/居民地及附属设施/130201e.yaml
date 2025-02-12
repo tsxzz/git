@@ -1,0 +1,10 @@
+name: 130201f
+title: 首都、首府、境内首都
+symbolizers:
+  # 图标样式
+  - point:
+      size: 11
+      symbols:
+      - external:
+          url: svg/Diy/130201f.svg
+          format: image/svg

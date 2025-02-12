@@ -1,0 +1,23 @@
+feature-styles:
+  - name: 200808
+    rules:
+      - title: 土质崩崖
+        symbolizers:
+          - line:
+              stroke-color: '#  '
+              stroke-width: 0.76
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 2
+              stroke-dasharray: 2 3.78     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: 4
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 1
+              stroke-dasharray: 1 3.78     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: 8
+          - line:
+              stroke-color: '#b97b0b'
+              stroke-width: 1
+              stroke-dasharray: 1 3.78     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: 12

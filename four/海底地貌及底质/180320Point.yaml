@@ -1,0 +1,16 @@
+name: 180320Point
+title: 碍航物
+symbolizers:
+  # 图标样式
+  - point:
+      size: 8
+      symbols:
+      - external:
+          url: svg/Diy/180306Point.svg
+          format: image/svg
+  # 标注样式
+  - text:
+      label: "碍" 
+      fill-color: 'black'
+      font-size: 7
+      displacement: [5,1]  # 偏移量，格式为 (<x>,<y>)

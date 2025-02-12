@@ -1,0 +1,9 @@
+name: 180201
+title: 非危险沉船
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180201.svg
+          format: image/svg

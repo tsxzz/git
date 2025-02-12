@@ -1,0 +1,54 @@
+feature-styles:
+  - name: 150103
+    title: 海底电力线
+    rules:
+      - symbolizers:
+          - line:
+              stroke-color: '#ff3900'
+              stroke-width: 0.45
+          # 括号内的球
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 2
+              stroke-dasharray: 5 56.69   # 虚线样式
+              stroke-graphic:
+                size: 3             # 图标大小
+                symbols:
+                - external:
+                    url: 'svg/Diy/circle.svg'  # SVG 文件路径
+                    format: image/svg
+          # 设置线条样式
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 2
+              stroke-dasharray: 5 56.69  # 虚线样式
+              stroke-dashoffset: 9  #向后偏移2mm
+              stroke-graphic:
+                size: 7              # 图标大小
+                symbols:
+                - external:
+                    url: 'svg/Diy/left.svg'  # SVG 文件路径
+                    format: image/svg
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 2
+              stroke-dasharray: 5 56.69  # 虚线样式
+              stroke-dashoffset: 54  #向后偏移2mm
+              stroke-graphic:
+                size: 7              # 图标大小
+                symbols:
+                - external:
+                    url: 'svg/Diy/right.svg'  # SVG 文件路径
+                    format: image/svg
+        # 中间的那个球
+          - line:
+              stroke-color: '#000000'
+              stroke-width: 2
+              stroke-dasharray: 5 56.69   # 虚线样式
+              stroke-dashoffset: 30  #向后偏移2mm
+              stroke-graphic:
+                size: 3             # 图标大小
+                symbols:
+                - external:
+                    url: 'svg/Diy/circle.svg'  # SVG 文件路径
+                    format: image/svg

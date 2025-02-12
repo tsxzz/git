@@ -1,0 +1,9 @@
+name: 241500
+title: 球形浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241500.svg
+          format: image/svg

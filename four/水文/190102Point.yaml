@@ -1,0 +1,9 @@
+name: 190102Point
+title: 河流、沟渠方向
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/190102Point.svg
+          format: image/svg

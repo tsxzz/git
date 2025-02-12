@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 140537
+    title: 人渡渡口
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#ffffff'
+            stroke-width: 2
+            stroke-dasharray: '4.78 0.6'

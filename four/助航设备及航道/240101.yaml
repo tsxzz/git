@@ -1,0 +1,9 @@
+name: 240101
+title: 灯标符号、灯塔
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/240101.svg
+          format: image/svg

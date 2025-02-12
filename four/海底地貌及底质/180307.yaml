@@ -1,0 +1,9 @@
+name: 180307
+title: 险恶地
+symbolizers:
+  - point:
+      size: 7
+      symbols:
+      - external:
+          url: svg/Diy/180307.svg
+          format: image/svg

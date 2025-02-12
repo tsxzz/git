@@ -1,0 +1,16 @@
+feature-styles:
+  - name: 210210
+    title: 自然保护区界
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              stroke-color: '#000000'      # 外层描边颜色
+              stroke-width: 0.57              # 描边宽度
+              stroke-dasharray: 7.56 5.67     # 设置虚线样式（4像素实线，2像素间隔）
+          - line:
+              stroke-color: '#000000'      # 外层描边颜色
+              stroke-width: 1          # 描边宽度
+              stroke-dasharray: 1 12.23     # 设置虚线样式（4像素实线，2像素间隔）
+              offset: -2  # 偏移值，单位是像素或地图单位
+              stroke-dashoffset: 10

@@ -1,0 +1,10 @@
+feature-styles:
+  - name: 160103
+    title: 时令水位岸线
+    rules:
+      - symbolizers:
+        # 设置线条样式
+        - line:
+            stroke-color: '#1774BF'
+            stroke-width: 0.45
+            stroke-dasharray: '7.56 1.89'  # 虚线样式

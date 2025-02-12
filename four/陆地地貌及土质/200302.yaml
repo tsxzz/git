@@ -1,0 +1,17 @@
+feature-styles:
+  - name: 200302
+    title: 粒雪原
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          # 第一层填充图案
+          - polygon:
+              fill-color: '#808080'
+              fill-graphic:
+                size: 2
+                rotation: 90
+                symbols:
+                  - external:
+                      url: 'svg/Diy/200302.svg'  # 上层 SVG 文件路径
+                      format: image/svg
+              x-graphic-margin: 6.32 6.32 6.32 6.32

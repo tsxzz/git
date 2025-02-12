@@ -1,0 +1,9 @@
+name: 241300
+title: 杆型浮标
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/241300.svg
+          format: image/svg

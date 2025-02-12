@@ -1,0 +1,9 @@
+feature-styles:
+  - name: 230101
+    title: 等磁差线及磁差线 
+    rules:
+      - symbolizers:
+        - line:
+            stroke-color: '#bc006e'
+            stroke-width: 1.13
+            stroke-dasharray: '11.34 3.78'           

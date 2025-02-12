@@ -1,0 +1,11 @@
+feature-styles:
+  - name: 220313
+    title: 地类界
+    rules:
+      # 外层多边形样式
+      - symbolizers:
+          - polygon:
+              stroke-color: '#000000'      # 外层描边颜色
+              stroke-width: 0.5              # 描边宽度
+              stroke-opacity: 1            # 描边透明度
+              stroke-dasharray: 0.57 2.27     # 设置虚线样式（4像素实线，2像素间隔）

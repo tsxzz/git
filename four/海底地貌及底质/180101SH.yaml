@@ -1,0 +1,9 @@
+name: 180101SH
+title: 珊瑚
+symbolizers:
+  - point:
+      size: 12
+      symbols:
+      - external:
+          url: svg/Diy/180101SH.svg
+          format: image/svg
