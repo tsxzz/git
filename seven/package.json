@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@uqrcode/js": "^4.0.7",
+    "uqrcodejs": "^4.0.7"
+  }
+}

@@ -12,7 +12,7 @@
 			"path" : "pages/order/index",
 			"style" : 
 			{
-				"navigationBarTitleText" : "订单",
+				"navigationBarTitleText" : "我的订单",
 				"navigationBarBackgroundColor" : "#FFFFFF"
 			}
 		},
@@ -30,6 +30,36 @@
 			{
 				"navigationBarTitleText" : "搜索医院",
 				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/hospital/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "医院页面",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "填写服务订单"
+			}
+		},
+		{
+			"path" : "pages/clients/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/order/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情页"
 			}
 		}
 	],
@@ -56,6 +86,12 @@
 		"text": "用户"
 	}]
 	},
+		"plugins": {
+			"routePlan": {
+			"version": "1.0.18",
+			"provider": "wx50b5593e81dd937a"
+			}
+		},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

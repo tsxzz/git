@@ -22,7 +22,7 @@ Service.interceptors.request.use((config) => {
   return config;
 });
 //响应拦截
-Service.interceptors.response.use(
+Service.interceptors.response.use( 
   (response) => {
     const data = response.data;
     console.log(data);

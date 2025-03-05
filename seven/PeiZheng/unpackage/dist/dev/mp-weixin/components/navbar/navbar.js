@@ -33,11 +33,20 @@ const _sfc_main = {
       default: false
     }
   },
-  setup(__props) {
+  emits: ["onNavBarAttached"],
+  setup(__props, { emit: __emit }) {
     const props = __props;
+    const emit = __emit;
     common_vendor.onBeforeMount(() => {
       setNavSize();
       setStyle();
+      emit("navBarHeight", {
+        detail: {
+          statusHeight: status.value,
+          navHeight: navHeight.value,
+          navBarHeight: status.value + navHeight.value
+        }
+      });
     });
     const status = common_vendor.ref(0);
     const navHeight = common_vendor.ref(0);
@@ -78,7 +87,7 @@ const _sfc_main = {
       } : common_vendor.e({
         e: pages.value > 1
       }, pages.value > 1 ? {
-        f: common_assets._imports_0$1
+        f: common_assets._imports_0$6
       } : {
         g: common_assets._imports_1$1
       }, {

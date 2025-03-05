@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "用户",
   "navigationBarBackgroundColor": "#FFFFFF",
-  "usingComponents": {}
+  "usingComponents": {
+    "share": "../../components/share/share"
+  }
 }

@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/order/index",
     "pages/user/index",
-    "pages/seach/index"
+    "pages/seach/index",
+    "pages/hospital/index",
+    "pages/service/index",
+    "pages/clients/index",
+    "pages/order/order"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -36,6 +40,21 @@
         "text": "用户"
       }
     ]
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.18",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseAddress",
+    "getLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "想使用"
+    }
   },
   "usingComponents": {}
 }
